@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #dbdbdb;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.kit {
+    display: inline-block;
+}
+.kit2 {
+    display: flex;
+}
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    background-color: #f5f5f5;
+    color: #262626;
+}
+
+.sing  {
+    background: #0096f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.sing:hover {
+    opacity: 0.85;
+}
+
+.sing:active {
+    opacity: 0.7;
+}
+.container-imagens {
+    position: relative;
+}
+.img-celular {
+    width: 450px;
+    margin-top: 70px;
+    
+}
+.insta-1 {
+    height: 529px;
+    position:absolute;
+    left: 150px;
+    top: 95px;
+    transition: opacity 2s ease-in-out;
+    
+}
+.insta-logo {
+    margin-bottom: 20px;
+}
+.container-itens {
+    width: 350px;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b6b5b5;
+    background-color: #fafafa;
+    padding: 50px 50px 0px 50px;
+}
+.container-face {
+    align-self: center;
+    display: flex;
+}
+.face {
+    width: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.obtenha-aplicativo {
+    text-align: center;
+   
+    
+}
+
+.div{
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #d9d9d9;
+}
+.img-app {
+    width: 150px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.login-face {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 5px;
+    color: #2f45a3;
+    cursor: pointer;
+}
+.ou {
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    justify-content: center;
+}
+.esqueceu-senha {
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sem-conta {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    
+    
+}
+.cadastrar {
+    margin-left: 05px;
+    text-align: center;
+    color: #0096f6;
+    cursor: pointer;
+}
+.conta {
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #b6b5b5;
+    background-color: #fafafa;
+    display: flex;
+    padding:  10px 10px 10px 10px;
+}
+
+
